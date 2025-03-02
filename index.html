@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tennis2</title>
+  </head>
+  <body
+    style="
+      margin: auto;
+      height: 100%;
+      padding: 20px;
+      padding: 0;
+      background-color: #333;
+      color: #fff;
+    "
+    text-align:
+    center;
+  >
+    <h1>Tennis2</h1>
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      "
+    >
+      <h2>Score</h2>
+      <div style="display: flex; gap: 4px; padding-left: 10px">
+        <input type="text" id="scorePlayer1" value="0" readonly />
+        <input type="text" id="scorePlayer2" value="0" readonly />
+      </div>
+    </div>
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-top: 20px;
+      "
+    >
+      <canvas
+        id="tennisCanvas"
+        width="800"
+        height="600"
+        style="border: 1px #fff solid"
+      ></canvas>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
