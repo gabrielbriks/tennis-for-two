@@ -125,15 +125,12 @@ function gameLoop() {
 }
 
 function setScorePlayer1(valueScore) {
-  console.log("Atualizando Player 1:", valueScore);
   setTimeout(() => {
     document.getElementById("scorePlayer1").value = valueScore;
   }, 10);
 }
 
 function setScorePlayer2(valueScore) {
-  console.log("Atualizando Player 2:", valueScore);
-
   setTimeout(() => {
     document.getElementById("scorePlayer2").value = valueScore;
   }, 10);
